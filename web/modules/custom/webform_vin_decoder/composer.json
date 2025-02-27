@@ -1,0 +1,29 @@
+{
+    "name": "webform_vin_decoder",
+    "type": "drupal-module",
+    "description": "Webform handler to lookup car vin numbers using a webform.",
+    "keywords": [    ],
+    "license": "GPL-2.0+",
+    "homepage": "https://www.drupal.org/project/webform_vin_decoder",
+    "minimum-stability": "dev",
+    "authors": [
+      {
+        "name": "Nabil Akdouche",
+        "homepage": "https://www.drupal.org/u/nakdouche",
+        "role": "Maintainer"
+      }
+    ],
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/webform_vin_decoder",
+        "source": "http://cgit.drupalcode.org/webform_vin_decoder"
+    },
+    "repositories":[
+      {
+        "type": "composer",
+        "url": "https://packages.drupal.org/8"
+      }
+    ],
+    "require": {
+      "drupal/webform": "^5.5 || ^6.0"
+    }
+}

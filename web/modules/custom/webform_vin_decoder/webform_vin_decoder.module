@@ -1,0 +1,26 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * @file
+ * Decodes car vin number.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function webform_vin_decoder_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the msul_staff_db_connector module.
+    case 'help.page.webform_vin_decoder':
+      return t(<<<'OUTPUT'
+      <h2>About</h2>
+      <p>Webform handler to lookup car vin numbers in a webform.</p>
+
+      <p style='font-size:60%;'>Written By Kevin Finkenbinder while working for MSU.</p>
+OUTPUT
+    );
+
+  }
+}
